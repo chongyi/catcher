@@ -1,4 +1,5 @@
 [workspace]
 members = [
-    "services/catcher"
+    "catcher-core",
+    "catcher-benchmark",
 ]

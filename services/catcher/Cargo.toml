@@ -1,7 +1,0 @@
-[package]
-name = "catcher"
-version = "0.1.0"
-authors = ["chongyi <xpz3847878@163.com>"]
-
-[dependencies]
-reqwest = "0.8"

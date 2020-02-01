@@ -1,0 +1,12 @@
+[package]
+name = "catcher-benchmark"
+version = "0.1.0"
+authors = ["chongyi <xpz3847878@163.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+catcher-core = { path = "../catcher-core" }
+tokio = { version = "0.2", features = ["full"] }
+futures = { version = "0.3" }

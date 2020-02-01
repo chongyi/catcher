@@ -1,0 +1,10 @@
+[package]
+name = "catcher-core"
+version = "0.1.0"
+authors = ["chongyi <xpz3847878@163.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = { version = "0.10", features = ["json", "blocking"] }
+tokio = { version = "0.2", features = ["full"] }
+futures = { version = "0.3" }
